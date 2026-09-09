@@ -6,26 +6,23 @@ public class App {
 
 	public static void main(String[] args) {
 		
-		Scanner leia = new Scanner(System.in);
+		 Scanner sc = new Scanner(System.in);
+	        double base, altura;
+
+	        do {
+	            System.out.print("Base: "); base = sc.nextDouble();
+	            System.out.print("Altura: "); altura = sc.nextDouble();
+
+	            if (base <= 0 || altura <= 0) {
+	                System.out.println("Erro: as medidas devem ser maiores que zero.");
+	            }
+
+	        } while (base <= 0 || altura <= 0);
+
+	        System.out.printf("Area: %.2f%n", base * altura / 2);
+
+	        sc.close();
 		
-		System.out.print("Informe a base do triangulo: ");
-		int base = Integer.parseInt(leia.nextLine());
-		
-		System.out.print("Informe a altura do triangulo: ");
-		int altura = Integer.parseInt(leia.nextLine());
-		
-		do {
-			
-			System.out.println("Informe valores maiores que 0");
-			
-		} while (base <= 0 && altura <= 0);
-		
-		if (base >= 0 || altura >= 0);{
-			
-			System.out.print();
-			System.out.print((base * altura)/2);
-		
-		}
 
 	}
 

@@ -14,31 +14,31 @@ public class App {
 		
 		switch (dia) {
 		case 1 :
-			System.out.println(dia = 1 + "é igual á Domingo");
+			System.out.println("é igual á Domingo");
 			break;
 		
 		case 2 : 
-			System.out.println(dia = 2 + "é igual á Segunda-feira");
+			System.out.println("é igual á Segunda-feira");
 			break;
 			
 		case 3 : 
-			System.out.println(dia = 3 + "é igual á Terça-feira");
+			System.out.println("é igual á Terça-feira");
 			break;
 			
 		case 4 :
-			System.out.println(dia = 4 + "é igual á Quarta-feira");
+			System.out.println("é igual á Quarta-feira");
 			break;
 			
 		case 5 :
-			System.out.println(dia = 5 + "é igual á Quinta-feira");
+			System.out.println("é igual á Quinta-feira");
 			break;
 		
 		case 6 :
-			System.out.println(dia = 6 + "é igual á Sexta-feira");
+			System.out.println("é igual á Sexta-feira");
 			break;
 			
 		case 7 :
-			System.out.println(dia = 7 + "é igual á Sabado");
+			System.out.println("é igual á Sabado");
 			break;
 			
 		default :
