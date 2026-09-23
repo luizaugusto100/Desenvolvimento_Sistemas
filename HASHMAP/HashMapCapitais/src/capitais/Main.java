@@ -39,5 +39,6 @@ public class Main {
 			System.out.println("Estado não encontrado.");
 			
 		}
+			input.close();
 	}
 }
